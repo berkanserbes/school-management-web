@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const MenuUI = () => {
   return (
-    <div className="mt-4 text-sm">
+    <div className="mt-4 text-sm fixed">
       {menuItems.map((menuItem) => (
         <div key={menuItem.title} className="flex flex-col gap-2">
           <span className="hidden lg:block my-4 font-light text-gray-400">
