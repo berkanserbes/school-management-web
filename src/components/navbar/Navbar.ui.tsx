@@ -27,6 +27,13 @@ const NavbarUI = () => {
           </div>
         </div>
         {/* Notificatin End  */}
+        {/* User Info Start */}
+        <div className='flex flex-col'>
+          <span className="text-xs leading-3 font-bold">Berkan Serbes</span>
+          <span className="text-[10px] text-gray-500 text-right">Admin</span>
+        </div>
+        <Image src="/avatar.png" alt="" width={36} height={36} className="rounded-full"/>
+        {/* User Info End */}
       </div>
     </div>
   );
