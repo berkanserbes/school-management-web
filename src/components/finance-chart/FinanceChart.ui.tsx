@@ -9,7 +9,6 @@ type DataType = {
 };
 
 const FinanceChartUI = ({ data }: { data: DataType[] }) => {
-  console.log(data);
   return (
     <div className="bg-white rounded-xl w-full h-full p-4 border border-1 border-gray-300">
       <div className="flex justify-between items-center">

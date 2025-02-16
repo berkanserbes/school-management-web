@@ -9,7 +9,6 @@ interface DataItem {
 }
 
 const AttendanceChartUI = ({ data }: { data: DataItem[] }) => {
-  console.log(data);
   return (
     <div className="bg-white rounded-lg p-4 h-full border border-1 border-gray-300">
       <div className="flex justify-between items-center">
