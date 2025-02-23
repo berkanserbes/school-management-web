@@ -1,6 +1,6 @@
 const AnnouncementUI = () => {
   return (
-    <div className="bg-white rounded-md p-4">
+    <div className="bg-white rounded-md">
       {/* Title start */}
       <div className=" flex flex-row items-center justify-between">
         <h1 className="text-xl font-semibold">Announcement</h1>
